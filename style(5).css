@@ -1,0 +1,134 @@
+body {
+padding: 0;
+margin: 0;
+}
+.container{
+    width: 70%;
+    height: 600px;
+    background: #fff;
+    margin:auto ;
+    border: .1em solid #d6cfcf;
+    margin-top: 80px;
+    border-radius: 7px;
+}
+.right{ 
+   float: right;
+   width: 50%;
+   height: 600px;
+   overflow: hidden;
+   text-align: center;
+}
+ .right img{
+width: 100%;
+}
+.right img{
+    margin-top: 90px;
+    
+}
+.right p{
+    color: rgb(56, 56, 56);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+    font-family: 'Nunito Sans', sans-serif;
+}
+h1{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+    font-family: 'Nunito Sans', sans-serif;
+    color: #202124;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400 bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    }
+    .left{ 
+        float: left;
+        width:60%;
+        height: 600px;
+        overflow: hidden;
+        padding: 80px 40px;
+        box-sizing: border-box;
+    }
+    .google{
+        margin-left: 20px;
+        margin-top: 60px;
+        display: inline-block;
+    }
+    #next-btn{
+        color:white ;
+        background-color: #4688f1;
+        border: 5px solid white;
+        padding: 10px 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 150px;
+        font-size: 20px;
+    }
+    #next-btn:hover{
+        background-color: #1a65c8;
+    }
+    a{
+        text-decoration: none;
+        color: #4688f1;
+        font-weight: bold;
+        margin-left: 20px;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+
+    font-family: 'Nunito Sans', sans-serif;
+    }
+input{
+    background-color: white;
+    color:rgb(56, 56, 56);;
+    border: .1em solid #d6cfcf;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 20px;
+    padding: 7px 3px;
+    margin-left: 20px;
+    
+}
+input:hover{
+    border: .1em solid #4688f1;
+}
+#username{
+    margin-top: 10px;
+    padding-right:50px;
+    width: 40%;
+}
+.password{
+    margin-top: 10px;
+}
+.confirm{
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-left: 3px;
+    margin-left: 5px;
+}
+.left-p{
+    margin-left: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+    font-family: 'Nunito Sans', sans-serif;
+}
+input :hover[valid]{
+    border: .1em solid lightgreen;
+}
+input:hover [invalid]{
+    border: .1em solid red;
+}
+i{
+    color: rgba(0,0,0,0.54);
+    font-size: 20px;
+}
+.footer ul{
+    display: flex;
+    
+}
+.footer li{
+    list-style: none;
+
+}
+.footer a{
+color: #d6cfcf ;
+}
